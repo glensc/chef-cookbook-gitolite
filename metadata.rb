@@ -12,6 +12,6 @@ recipe "gitolite::basic", "Sets up the gitolite basic installation."
   supports os
 end
 
-%w( git perl ).each do |cb|
+%w( perl ).each do |cb|
   depends cb
 end
